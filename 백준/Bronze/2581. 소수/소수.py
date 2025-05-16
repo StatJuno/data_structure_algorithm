@@ -13,7 +13,6 @@ for num in range(M, N+1):
             l.append(num)
             
 if len(l) > 0:
-    print(sum(l))
-    print(min(l))
+    print(sum(l), min(l), "\n")
 else:
     print(-1)
