@@ -6,8 +6,7 @@ l = []
 for i in range(N):
     l.append(sys.stdin.readline().strip())
 
-l = set(l)
-l = list(l)
+l = list(set(l))
 l.sort()
 l.sort(key = len)
 
